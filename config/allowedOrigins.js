@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    'https://music-player-eifx.onrender.com'
+    'https://music-player-mern-app.vercel.app'
 ]
 
 module.exports = allowedOrigins
