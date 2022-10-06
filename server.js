@@ -13,12 +13,6 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use('/', (req, res) => {
-    res
-        .status(200)
-        .send('Hello World!')
-})
-
 app.use('/api/v1/favTracks', require(path.join(__dirname, 'routes', 'favTracks')));
 
 app.use('/api/user', require(path.join(__dirname, 'routes', 'user')));
